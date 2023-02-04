@@ -11,9 +11,12 @@ RootFS Version (Note: If you go back into verified mode it **WILL** brick you ch
 - Download It
 - Open Crosh (Ctrl + Alt + T)
 - Type In "shell"
-- Type In "sudo chmod +x ./path-to-script.sh"
-- Type In "sudo ./path-to-script.sh"
+- Type In "sudo chmod +x ./path-to-rootfs-script.sh"
+- Type In "sudo ./path-to-rootfs-script.sh"
 - Restart
+- Open Crosh Again
+- Repeat Same Steps For RootFS Script But Instead The Pollin Script
+
   
 Temp Version
 - Enable Dev Mode (Via Sh1mmer Or Some Other Exploit)
