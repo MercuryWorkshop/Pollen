@@ -1,6 +1,6 @@
 # Pollin
 *Currently In Development DOES Not Work, Also Private*
-- Pollin is a root exploit/script that allows you to load custom User Policies.
+- Pollin is an exploit that allows you to load custom User Policies.
 - Demo site can be found at [Here](https://pollin.scarat3k.me)
 
 ## How To Use
