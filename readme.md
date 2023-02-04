@@ -21,7 +21,7 @@ RootFS Version (Note: If you go back into verified mode it **WILL** brick you ch
 Temp Version
 - Enable Dev Mode (Via Sh1mmer Or Some Other Exploit)
 - Go To Https://pollin.scarat3k.me/temp
-- Create Your Custom Payload
+- Create Your Custom Script
 - Download It
 - Open Crosh (Ctrl + Alt + T)
 - Type In "shell"
