@@ -1,7 +1,7 @@
 # Pollin
 *Currently In Development DOES Not Work, Also Private*
 - Pollin is a root exploit/script that allows you to load custom User Policies.
-- Demo site can be found at (Here)[https://pollin.scarat3k.me]
+- Demo site can be found at [Here](https://pollin.scarat3k.me)
 
 ## How To Use
 RootFS Version (Note: If you go back into verified mode it **WILL** brick you chromebook)
