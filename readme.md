@@ -6,7 +6,7 @@ Note: Devmode **NEEDS** to be enabled. Use some sort of exploit like sh1mmer to 
 RootFS Version (Note: If you go back into verified mode it **WILL** brick you chromebook)
 - Open Crosh (ctrl+alt+t)
 - Type In `shell`
-- Type In `sudo bash <(curl -k https://Pollen.scarat3k.me/rootFS.sh)`
+- Type In `sudo bash <(curl -k https://Pollen.scarat3k.me/RootFS.sh)`
 - Restart
 - Open Crosh Again
 - Type In `shell`
@@ -15,7 +15,7 @@ RootFS Version (Note: If you go back into verified mode it **WILL** brick you ch
 Temp Version (Note: You Will Need To Do This Everytime You Boot Your Chromebook)
 - Open Crosh (ctrl+alt+t)
 - Type In `shell`
-- Type In `sudo bash <(curl -k https://Pollen.scarat3k.me/cotton.sh)`
+- Type In `sudo bash <(curl -k https://Pollen.scarat3k.me/Cotton.sh)`
 
 ## How It Works
 It works by loading a custom user policy in to CrOS. (Similar to how policies on windows work)\
