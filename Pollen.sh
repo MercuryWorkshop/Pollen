@@ -7,7 +7,6 @@ echo "Discovered The Overlook: Rafflesia"
 echo "Provided User Policy For Base: Ethonic"
 echo "######################################"
 sleep 5
-clear
 
 # Questions
 echo "1 = true/yes. 2=false/no"
@@ -21,7 +20,6 @@ read -p "Enable Task Manager? " opt7
 read -p "Enable Incognito Mode? " opt8
 read -p "Unblock All Site? " opt9
 read -p "Unblock All Extensions? " opt10
-clear
 
 # Logic
 pollen=""
@@ -94,10 +92,9 @@ echo "Discovered The Overlook: Rafflesia"
 echo "Provided User Policy For Base: Ethonic"
 echo "######################################"
 sleep 5
-clear
 
 sudo mkdir -p /tmp/overlay/etc/opt/chrome/policies/managed
-sudo echo $pollen > /tmp/overlay/etc/opt/chrome/policies/managed/policy.json
+sudo cat $pollen > /tmp/overlay/etc/opt/chrome/policies/managed/policy.json
 sudo cp -a -L /etc/* /tmp/overlay/etc 2> /dev/null
 sudo mount --bind /tmp/overlay/etc /etc
 
