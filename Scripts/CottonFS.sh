@@ -17,11 +17,11 @@ sudo curl https://pollen.scarat3k.me/scripts/genorator/Geno.sh
 sudo curl https://pollen.scarat3k.me/scripts/pollen/PollenFS.sh
 clear
 
-sudo chmod +x pollenFS.sh
-sudo chmod +x geno.sh
+sudo chmod +x PollenFS.sh
+sudo chmod +x Geno.sh
 clear
 
-sudo ./geno.sh
+sudo ./Geno.sh
 clear
 
-sudo ./pollenFS.sh
+sudo ./PollenFS.sh
