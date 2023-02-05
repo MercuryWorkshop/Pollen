@@ -13,8 +13,8 @@ mkdir pollen
 cd pollen
 clear
 
-sudo curl https://pollen.scarat3k.me/scripts/pollen/pollenFS.sh
-sudo curl https://pollen.scarat3k.me/scripts/genorator/geno.sh
+sudo curl https://pollen.scarat3k.me/scripts/genorator/Geno.sh
+sudo curl https://pollen.scarat3k.me/scripts/pollen/PollenFS.sh
 clear
 
 sudo chmod +x pollenFS.sh
