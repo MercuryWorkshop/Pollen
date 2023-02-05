@@ -13,6 +13,6 @@ sudo mkdir pollen
 cd pollen
 clear
 
-sudo bash <(curl -k https://pollen.scarat3k.me/Geno.sh)
-sudo bash <(curl -k https://pollen.scarat3k.me/Pollen.sh)
+sudo curl -k https://pollen.scarat3k.me/Geno.sh | bash
+sudo curl -k https://pollen.scarat3k.me/Pollen.sh | bash
 clear
