@@ -5,18 +5,18 @@ Pollin is an exploit that allows you to load custom User Policies.
 Note: Devmode **NEEDS** to be enabled. Use some sort of exploit like sh1mmer to enable devmode\
 RootFS Version (Note: If you go back into verified mode it **WILL** brick you chromebook)
 - Open Crosh (ctrl+alt+t)
-- Type In "shell"
-- Type In "bash <(curl -k https://pollin.scarat3k.me/rootFS.sh)"
+- Type In `shell`
+- Type In `bash <(curl -k https://pollin.scarat3k.me/rootFS.sh)`
 - Restart
 - Open Crosh Again
-- Type In "shell"
-- Type In "bash <(curl -k https://pollin.scarat3k.me/CottonFS.sh)"
+- Type In `shell`
+- Type In `bash <(curl -k https://pollin.scarat3k.me/CottonFS.sh)`
 - Go Through Script Genorator
   
 Temp Version (Note: You Will Need To Do This Everytime You Boot Your Chromebook)
 - Open Crosh (ctrl+alt+t)
-- Type In "shell"
-- Type In "bash <(curl -k https://pollin.scarat3k.me/cotton.sh)"
+- Type In `shell`
+- Type In `bash <(curl -k https://pollin.scarat3k.me/cotton.sh)`
 - Go Through Script Genorator
 
 ## How It Works
