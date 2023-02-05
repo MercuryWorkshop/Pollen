@@ -1,6 +1,6 @@
 clear
 echo "###################################################"
-echo "Welcome To Cotton, The Automatic Pollin Setup Tool!"
+echo "Welcome To Cotton, The Automatic Pollen Setup Tool!"
 echo "Pollen Developer: Scarat3k"
 echo "User Policy Editor Developer: OlyB"
 echo "Discovered The Overlook: Rafflesia"
