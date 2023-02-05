@@ -9,15 +9,10 @@ echo "######################################"
 sleep 5
 clear
 
-if [[ $(id -u) != 0 ]]; then
-	echo "Error, Not Rooted. Please Run In Sudo!"
-	exit
-fi
-
-mkdir -p /tmp/overlay/etc/opt/chrome/policies/managed
-cat pollen.json > /tmp/overlay/etc/opt/chrome/policies/managed/policy.json
-cp -a -L /etc/* /tmp/overlay/etc 2> /dev/null
-mount --bind /tmp/overlay/etc /etc
+sudo mkdir -p /tmp/overlay/etc/opt/chrome/policies/managed
+sudo cat pollen.json > /tmp/overlay/etc/opt/chrome/policies/managed/policy.json
+sudo cp -a -L /etc/* /tmp/overlay/etc 2> /dev/null
+sudo mount --bind /tmp/overlay/etc /etc
 clear
 
 echo "Pollen Has Been Successfully Applied!"
