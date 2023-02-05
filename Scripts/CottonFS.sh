@@ -1,6 +1,6 @@
 echo "#####################################################"
-echo "Welcome To CottonFS, The Automotic PollinFS Setup Tool!"
-echo "PollinFS Developer: Scarat3k"
+echo "Welcome To CottonFS, The Automotic PollenFS Setup Tool!"
+echo "PollenFS Developer: Scarat3k"
 echo "CottonFS Developer: Scarat3k"
 echo "User Policy Editor Developer: OlyB"
 echo "Discovered The Overlook: Rafflesia"
@@ -9,20 +9,19 @@ echo "#####################################################"
 sleep  7
 clear
 
-mkdir pollin
-cd pollin
+mkdir pollen
+cd pollen
 clear
 
-sudo curl https://pollin.scarat3k.me/scripts/pollin/pollinFS.sh
-sudo curl https://pollin.scarat3k.me/scripts/genorator/geno.sh
-sudo curl https://pollin.scarat3k.me/scripts/genorator/base.json
+sudo curl https://pollen.scarat3k.me/scripts/pollen/pollenFS.sh
+sudo curl https://pollen.scarat3k.me/scripts/genorator/geno.sh
 clear
 
-sudo chmod +x pollinFS.sh
+sudo chmod +x pollenFS.sh
 sudo chmod +x geno.sh
 clear
 
 sudo ./geno.sh
 clear
 
-sudo ./pollinFS.sh
+sudo ./pollenFS.sh

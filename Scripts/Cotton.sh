@@ -1,6 +1,6 @@
 echo "###################################################"
-echo "Welcome To Cotton, The Automotic Pollin Setup Tool!"
-echo "Pollin Developer: Scarat3k"
+echo "Welcome To Cotton, The Automotic Pollen Setup Tool!"
+echo "Pollen Developer: Scarat3k"
 echo "Cotton Developer: Scarat3k"
 echo "User Policy Editor Developer: OlyB"
 echo "Discovered The Overlook: Rafflesia"
@@ -9,21 +9,20 @@ echo "###################################################"
 sleep  7
 clear
 
-mkdir pollin
-cd pollin
+mkdir pollen
+cd pollen
 clear
 
-sudo curl https://pollin.scarat3k.me/scripts/pollin/pollin.sh
-sudo curl https://pollin.scarat3k.me/scripts/genorator/geno.sh
-sudo curl https://pollin.scarat3k.me/scripts/genorator/base.json
+sudo curl https://pollen.scarat3k.me/scripts/pollen/pollen.sh
+sudo curl https://pollen.scarat3k.me/scripts/genorator/geno.sh
 clear
 
-sudo chmod +x pollin.sh
+sudo chmod +x pollen.sh
 sudo chmod +x geno.sh
 clear
 
 sudo ./geno.sh
 clear
 
-sudo ./pollin.sh
+sudo ./pollen.sh
 clear
