@@ -11,13 +11,11 @@ RootFS Version (Note: If you go back into verified mode it **WILL** brick you ch
 - Open Crosh Again
 - Type In `shell`
 - Type In `sudo bash <(curl -k https://pollin.scarat3k.me/CottonFS.sh)`
-- Go Through Script Genorator
   
 Temp Version (Note: You Will Need To Do This Everytime You Boot Your Chromebook)
 - Open Crosh (ctrl+alt+t)
 - Type In `shell`
 - Type In `sudo bash <(curl -k https://pollin.scarat3k.me/cotton.sh)`
-- Go Through Script Genorator
 
 ## How It Works
 It works by loading a custom user policy in to CrOS. (Similar to how policies on windows work)\
