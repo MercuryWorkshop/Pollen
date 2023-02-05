@@ -24,7 +24,7 @@ CrOS does not have the folder to load it built-in, however the src code is still
 Then simpily we just create the file and restart.
 
 ## Credits
-Cotton & Pollin Developer - Scarat3k
+- Cotton & Pollin Developer - Scarat3k
 - Discovery Of Exploit - Rafflesia
 - Original Script Developer - OlyB
 - Providing User Policy Base - Ethonic
