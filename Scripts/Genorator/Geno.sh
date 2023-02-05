@@ -86,5 +86,5 @@ elif [ "$opt10" == "2" ]; then
 fi
 
 # Write
-echo "$pollen" > pollen.json
+sudo echo "$pollen" > pollen.json
 echo "Custom User Policy Has Been Created (File Name: pollen.json)!"
