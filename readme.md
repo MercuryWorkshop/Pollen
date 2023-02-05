@@ -5,7 +5,7 @@ Pollen is an exploit that allows you to load custom User Policies.
 Note: Devmode **NEEDS** to be enabled. Use some sort of exploit like sh1mmer to enable devmode
 - Open Crosh (ctrl+alt+t)
 - Type In `shell`
-- Type In `sudo bash <(curl -k https://pollen.scarat3k.me/Cotton.sh)`
+- Type In `sudo curl -k https://pollen.scarat3k.me/Cotton.sh | bash`
 
 ## How It Works
 It works by loading a custom user policy in to CrOS. (Similar to how policies on windows work)\
