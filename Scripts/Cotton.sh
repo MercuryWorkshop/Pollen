@@ -1,12 +1,12 @@
+clear
 echo "###################################################"
-echo "Welcome To Cotton, The Automotic Pollen Setup Tool!"
+echo "Welcome To Cotton, The Automatic Pollin Setup Tool!"
 echo "Pollen Developer: Scarat3k"
-echo "Cotton Developer: Scarat3k"
 echo "User Policy Editor Developer: OlyB"
 echo "Discovered The Overlook: Rafflesia"
 echo "Provided User Policy For Base: Ethonic"
 echo "###################################################"
-sleep  7
+sleep 5
 clear
 
 mkdir pollen
