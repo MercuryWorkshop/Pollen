@@ -24,7 +24,7 @@ read -p "Unblock All Extensions? " opt10
 clear
 
 # Logic
-sudo pollen=""
+pollen=""
 if [ "$opt1" == "1" ]; then
   pollen="{\"AllowDeletingBrowserHistory\": { \"value\": false },"
 elif [ "$opt1" == "2" ]; then
