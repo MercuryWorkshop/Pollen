@@ -15,7 +15,7 @@ CrOS does not have the folder to load it built-in, however the src code is still
 Then simpily we just create the file and restart.
 
 ## Credits
-- Failed And Failed Again - Scaratek
+- Pollen Developer - Scaratek
 - Discovery Of The Overlook - Rafflesia
 - Script Developer - OlyB
 - Logo - Nitelite
