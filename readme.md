@@ -8,13 +8,14 @@ Pollen is an exploit that allows you to load custom User Policies.
 - Type In `sudo curl -k https://pollen.scarat3k.me/Pollen.sh | bash`
 
 ## Different Mods
-- 1 Is Non RootFS Version
+- Pollen (1) Is Non RootFS Version
   - Must Be Ran Every Time Apon Boot
 
-- 2 Is RootFS Version
+- PollenFS (2) Is RootFS Version
   - Requires RootFS Disabled
   - Note Disabeling RootFS And Entering Verified Mode **WILL** Brick You Chromebook
   - To Disable RootFS Run This: `sudo curl -k https://pollen.scarat3k.me/RootFS.sh`
+  - Does Not Need To Be Re Ran
 
 ## How It Works
 It works by loading a custom user policy in to CrOS. (Similar to how policies on windows work)\
