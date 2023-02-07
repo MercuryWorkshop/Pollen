@@ -6,6 +6,7 @@ CrOS User Policy Editor
 - Note: Devmode **NEEDS** to be enabled. Use some sort of exploit like sh1mmer to enable devmode
 - Open Crosh
 - Type In `shell`
+- Type In `sudo su`
 - Type In `sudo curl -k https://pollen.scarat3k.me/Pollen.sh | bash`
 
 ## How It Works
