@@ -2,6 +2,13 @@
 CrOS User Policy Editor. *Genorator Coming Soon :D*
 ![Pollen](/Pollen.svg)
 
+## Pollen v2 :D
+Pollen v2 Launches Soon (Or It Might Have Already)
+Added:
+  - User Policy Genorator
+  - RootFS Version
+
+
 ## How To Use
 - Note: Devmode **NEEDS** to be enabled. Use some sort of exploit like sh1mmer to enable devmode
 - Open Crosh
@@ -20,4 +27,5 @@ Then simpily we just create the file and restart.
 - Discovery Of The Overlook - Rafflesia
 - Script Developer - OlyB
 - Logo - Nitelite
-- Made Scaratek Not Lose Here Sanity - r58playz
+- Made Scaratek Not Lose Her Sanity - r58playz
+- Provided Base User Policy FOr Modification - Ethonic
