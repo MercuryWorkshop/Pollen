@@ -1,5 +1,5 @@
 # Pollen
-Pollen is an overlook in CroS that allows you to load custom User Policies.
+CrOS User Policy Editor
 ![Pollen](/Pollen.svg)
 
 ## How To Use
