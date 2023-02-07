@@ -3,16 +3,18 @@ Pollen is an exploit that allows you to load custom User Policies.
 
 ## How To Use
 - Note: Devmode **NEEDS** to be enabled. Use some sort of exploit like sh1mmer to enable devmode
-Pollen (This version does not require RootFS disabled but you do need to run this every time your boot your CB):
-- Open Crosh (ctrl+alt+t)
+- Open Crosh
 - Type In `shell`
 - Type In `sudo curl -k https://pollen.scarat3k.me/Pollen.sh | bash`
-- Select "1"
-PollenFS (Requires RootFS Disabled. Warning if you use this version and but your CB back in verified mode it **will** be bricked):
-- Open Crosh (ctrl+alt+t)
-- Type In `shell`
-- Type In `sudo curl -k https://pollen.scarat3k.me/Pollen.sh | bash`
-- Select "2"
+
+## Different Mods
+- 1 Is Non RootFS Version
+  - Must Be Ran Every Time Apon Boot
+
+- 2 Is RootFS Version
+  - Requires RootFS Disabled
+  - Note Disabeling RootFS And Entering Verified Mode **WILL** Brick You Chromebook
+  - To Disable RootFS Run This: `sudo curl -k https://pollen.scarat3k.me/RootFS.sh`
 
 ## How It Works
 It works by loading a custom user policy in to CrOS. (Similar to how policies on windows work)\
@@ -24,5 +26,4 @@ Then simpily we just create the file and restart.
 - Pollen Developer - Scarat3k
 - Discovery Of Exploit - Rafflesia
 - Original Script Developer - OlyB
-- Providing User Policy Base - Ethonic
 - Logo - Nitelite
