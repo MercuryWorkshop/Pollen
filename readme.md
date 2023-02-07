@@ -16,6 +16,6 @@ Then simpily we just create the file and restart.
 
 ## Credits
 - Failed And Failed Again - Scaratek
-- Discovery Of Exploit - Rafflesia
+- Discovery Of The Overlook - Rafflesia
 - Script Developer - OlyB
 - Logo - Nitelite
