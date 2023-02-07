@@ -20,3 +20,4 @@ Then simpily we just create the file and restart.
 - Discovery Of The Overlook - Rafflesia
 - Script Developer - OlyB
 - Logo - Nitelite
+- Made Scaratek Not Lose Here Sanity - r58playz
