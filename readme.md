@@ -28,4 +28,4 @@ Then simpily we just create the file and restart.
 - Script Developer - OlyB
 - Logo - Nitelite
 - Made Scaratek Not Lose Her Sanity - r58playz
-- Provided Base User Policy FOr Modification - Ethonic
+- Provided Base User Policy For Modification - Ethonic
