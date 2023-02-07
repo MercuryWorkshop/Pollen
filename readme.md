@@ -1,5 +1,5 @@
 # Pollen
-CrOS User Policy Editor
+CrOS User Policy Editor. *Genorator Coming Soon :D*
 ![Pollen](/Pollen.svg)
 
 ## How To Use
