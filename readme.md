@@ -25,6 +25,11 @@ Using this we can either disenable RootFS or temporarily to load it.\
 CrOS does not have the folder to load it built-in, however the src code is still there so we can manually create it.\
 Then simpily we just create the file and restart.
 
+## How To Edit
+You Can Customize The User Policy By Editing\
+`sudo echo '{"URLBlocklist": [], "SystemFeaturesDisableList": [], "ChromeOsMultiProfileUserBehavior": "unrestricted", "DeveloperToolsAvailability": 1, "AllowDeletingBrowserHistory": true, "IncognitoModeAvailability": 0, "AllowScreenLock": true, "ExtensionAllowedTypes": null, "ExtensionInstallAllowlist": null, "ExtensionInstallBlocklist": null, "ExtensionInstallForcelist": null, "ExtensionSettings": null}'`\
+This is the policy loaded. A genorator to edit this will be coming soonish
+
 ## Credits
 - Pollen Developer - Scarat3k
 - Discovery Of Exploit - Rafflesia
