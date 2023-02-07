@@ -11,7 +11,6 @@ echo "Found The Overlook - Rafflesia"
 echo "Made The Original Script - OlyB"
 echo "###############################"
 sleep 5
-clear
 
 echo "Please Refer to https://github.com/mercuryworkshop/pollen for help"
 echo "Pollen = 1. PollenFS = 2"
