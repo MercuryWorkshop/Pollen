@@ -22,7 +22,7 @@ if [ "$Mode" == "1" ]; then
   sudo echo '{"URLBlocklist": [], "SystemFeaturesDisableList": [], "ChromeOsMultiProfileUserBehavior": "unrestricted", "DeveloperToolsAvailability": 1, "AllowDeletingBrowserHistory": true, "IncognitoModeAvailability": 0, "AllowScreenLock": true, "ExtensionAllowedTypes": null, "ExtensionInstallAllowlist": null, "ExtensionInstallBlocklist": null, "ExtensionInstallForcelist": null, "ExtensionSettings": null}' > /tmp/overlay/etc/opt/chrome/policies/managed/policy.json
   sudo cp -a -L /etc/* /tmp/overlay/etc 2> /dev/null
   sudo mount --bind /tmp/overlay/etc /etc
-  echo "Pollen Has Been Successfully Applied"
+  echo "Pollen Has Been Successfully Applied!"
 else
   echo "Not Valid Input, Please Try Again!"
   exit
@@ -31,7 +31,7 @@ fi
 if [ "$Mode" == "2" ]; then
   sudo mkdir -p /etc/opt/chrome/policies/managed
   sudo echo '{"URLBlocklist": [], "SystemFeaturesDisableList": [], "ChromeOsMultiProfileUserBehavior": "unrestricted", "DeveloperToolsAvailability": 1, "AllowDeletingBrowserHistory": true, "IncognitoModeAvailability": 0, "AllowScreenLock": true}' > /etc/opt/chrome/policies/managed/policy.json
-  echo "PollenFS Has Been Successfully Applied"
+  echo "PollenFS Has Been Successfully Applied!"
 else
   echo "Not Valid Input, Please Try Again!"
   exit
