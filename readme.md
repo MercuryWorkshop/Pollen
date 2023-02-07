@@ -10,6 +10,7 @@ Pollen is an exploit that allows you to load custom User Policies.
 ## Different Mods
 - Pollen (1) Is Non RootFS Version
   - Must Be Ran Every Time Apon Boot
+  - Reccomened
 
 - PollenFS (2) Is RootFS Version
   - Requires RootFS Disabled
