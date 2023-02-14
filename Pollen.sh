@@ -16,6 +16,7 @@ echo "# Found the Overlook - Rafflesia               #"
 echo "# Made the Original Script - OlyB              #"
 echo "# Fixed a tiny little bug - r58Playz           #"
 echo "+##############################################+"
+echo "May Ultrablue Rest In Peace o7"
 
 mkdir -p /tmp/overlay/etc/opt/chrome/policies/managed
 echo '{"URLBlocklist": [], "SystemFeaturesDisableList": [], "ChromeOsMultiProfileUserBehavior": "unrestricted", "DeveloperToolsAvailability": 1, "AllowDeletingBrowserHistory": true, "IncognitoModeAvailability": 0, "AllowScreenLock": true, "ExtensionAllowedTypes": null, "ExtensionInstallAllowlist": null, "ExtensionInstallBlocklist": null, "ExtensionInstallForcelist": null, "ExtensionSettings": null}' > /tmp/overlay/etc/opt/chrome/policies/managed/policy.json
