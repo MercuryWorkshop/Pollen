@@ -15,8 +15,8 @@ echo "# Logo Designer - Nitelite                     #"
 echo "# Found the Overlook - Rafflesia               #"
 echo "# Made the Original Script - OlyB              #"
 echo "# Fixed a tiny little bug - r58Playz           #"
-echo "# Edited more policies - 5less-chromosones     #"
 echo "+##############################################+"
+echo "Contributor: 5less-chromosones"
 echo "May Ultrablue Rest In Peace o7"
 
 mkdir -p /tmp/overlay/etc/opt/chrome/policies/managed
