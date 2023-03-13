@@ -7,7 +7,7 @@ chromeOS User Policy Editor
 - Open Crosh
 - Run `shell`
 - Run `sudo su`
-- Run `cd home && curl https://pollen.scarat3k.me/Pollen.sh > pollen.sh` && cat pollen.sh | bash
+- Run `cd home && curl https://github.com/MercuryWorkshop/Pollen/releases/download/release/Pollen.sh> pollen.sh` && cat pollen.sh | bash
 - Done! It may take a few seconds for the new policy to apply. If it does not apply, press `alt+vol_up+x`.
 
 ## How It Works
