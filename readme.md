@@ -22,5 +22,6 @@ Then simpily we just create the file and restart.
 - Discovery Of The Overlook - Rafflesia
 - Script Developer - OlyB
 - Logo - Nitelite
-- Made Scaratek Not Lose Her Sanity - r58playz
-- Provided Base User Policy For Modification - Ethonic
+- Fixed Bug - r58playz
+- Added Policies - 5less-chromosones
+- Website - 3kh0_ (Yeah I know I'm sorry. It looked kinda good I had too)
