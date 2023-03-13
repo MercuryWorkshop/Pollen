@@ -7,8 +7,8 @@ chromeOS User Policy Editor
 - Open Crosh
 - Run `shell`
 - Run `sudo su`
-- Run `curl https://pollen.scarat3k.me/Pollen.sh | bash`
-- Done! It may take a few seconds for the new policy to apply. If it does not apply, sign out and back in again.
+- Run `cd home && curl https://pollen.scarat3k.me/Pollen.sh > pollen.sh` && cat pollen.sh | bash
+- Done! It may take a few seconds for the new policy to apply. If it does not apply, press `alt+vol_up+x`.
 
 ## How It Works
 It works by loading a custom user policy in to chromeOS. (Similar to how policies on windows work.)  
@@ -16,8 +16,6 @@ Using this we can either disenable RootFS or temporarily to load it.
 CrOS does not have the folder to load it built-in, however the src code is still there so we can manually create it.  
 Then simpily we just create the file and restart.
 
-## Documetation
-Documention can be found [here](/docs.md)
 
 ## Credits
 - Pollen Developer - Scaratek
