@@ -24,4 +24,3 @@ Then simpily we just create the file and restart.
 - Logo - Nitelite
 - Fixed Bug - r58playz
 - Added Policies - 5less-chromosones
-- Website - 3kh0_ (Yeah I know I'm sorry. It looked kinda good I had too)
