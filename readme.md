@@ -12,7 +12,7 @@ chromeOS User Policy Editor
 
 ## How It Works
 It works by loading a custom user policy in to chromeOS. (Similar to how policies on windows work.)  
-Using this we can either disenable RootFS or temporarily to load it.  
+Using this we can either disable RootFS permanently or temporarily to load it.  
 CrOS does not have the folder to load it built-in, however the src code is still there so we can manually create it.  
 Then simpily we just create the file and restart.
 
