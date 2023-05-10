@@ -1,23 +1,23 @@
 #!/bin/bash
 
 if [ $(id -u) -ne 0 ]; then
-    echo "Run this script as root (sudo)"
+    echo "Run this script as root (sudo su)"
     exit
 fi
 
 echo "+##############################################+"
-echo "# Welcome To Pollen (v1)!                      #"
+echo "# Welcome To Pollen!                           #"
 echo "# The User Policy Editor                       #"
 echo "# -------------------------------------------- #"
-echo "# Credit:                                      #"
-echo "# Pollen Developer - Scaratek                  #"
-echo "# Logo Designer - Nitelite                     #"
-echo "# Found the Overlook - Rafflesia               #"
-echo "# Made the Original Script - OlyB              #"
-echo "# Fixed a tiny little bug - r58Playz           #"
+echo "# Developers:                                  #"
+echo "# - OlyB                                       #"
+echo "# - Rafflesia                                  #"
+echo "# - Violetence                                 #"
+echo "# - r58Playz                                   #"
 echo "+##############################################+"
-echo "Contributor - 5less-chromosones"
-echo "May Ultrablue Rest In Peace o7"
+echo "May Ultrablue Rest in Peace, o7"
+
+sleep 1
 
 mkdir -p /tmp/overlay/etc/opt/chrome/policies/managed
 echo '{"URLBlocklist": [], "SystemFeaturesDisableList": [], "EditBookmarksEnabled": true, "ChromeOsMultiProfileUserBehavior": "unrestricted", "DeveloperToolsAvailability": 1, "DefaultPopupsSetting": 1, "AllowDeletingBrowserHistory": true, "AllowDinosaurEasterEgg": true, "IncognitoModeAvailability": 0, "AllowScreenLock": true, "ExtensionAllowedTypes": null, "ExtensionInstallAllowlist": null, "ExtensionInstallBlocklist": null, "ExtensionInstallForcelist": null, "ExtensionSettings": null}' > /tmp/overlay/etc/opt/chrome/policies/managed/policy.json
