@@ -6,7 +6,7 @@ if [ $(id -u) -ne 0 ]; then
 fi
 
 echo "+##############################################+"
-echo "# Welcome To Pollen!                           #"
+echo "# Welcome To PollenFS!                         #"
 echo "# The User Policy Editor                       #"
 echo "# -------------------------------------------- #"
 echo "# Developers:                                  #"
@@ -19,10 +19,8 @@ echo "May Ultrablue Rest in Peace, o7"
 
 sleep 1
 
-mkdir -p /tmp/overlay/etc/opt/chrome/policies/managed
+mkdir -p /etc/opt/chrome/policies/managed
 echo '{"URLBlocklist": [], "SystemFeaturesDisableList": [], "EditBookmarksEnabled": true, "ChromeOsMultiProfileUserBehavior": "unrestricted", "DeveloperToolsAvailability": 1, "DefaultPopupsSetting": 1, "AllowDeletingBrowserHistory": true, "AllowDinosaurEasterEgg": true, "IncognitoModeAvailability": 0, "AllowScreenLock": true, "ExtensionAllowedTypes": null, "ExtensionInstallAllowlist": null, "ExtensionInstallBlocklist": null, "ExtensionInstallForcelist": null, "ExtensionSettings": null}' > /tmp/overlay/etc/opt/chrome/policies/managed/policy.json
-cp -a -L /etc/* /tmp/overlay/etc 2> /dev/null
-mount --bind /tmp/overlay/etc /etc
 
 echo ""
-echo "Pollen has been successfully applied!"
+echo "PollenFS has been successfully applied!"
