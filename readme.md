@@ -30,7 +30,7 @@ Then simpily we just create the file and restart.
 
 
 ## Credits
-- Pollen Developer - Smugumin
+- Pollen Developer - Scaratek
 - Discovery - Rafflesia
 - Original Script Developer - OlyB
 - Logo - Nitelite
