@@ -14,13 +14,14 @@ echo "# - OlyB                                       #"
 echo "# - Rafflesia                                  #"
 echo "# - Scaratek                                   #"
 echo "# - r58Playz                                   #"
+echo "# - Honkychunkymonkey - Additional Changes     #"
 echo "+##############################################+"
 echo "May Ultrablue Rest in Peace, o7"
 
 sleep 1
 
 mkdir -p /tmp/overlay/etc/opt/chrome/policies/managed
-echo '{"URLBlocklist": [], "SystemFeaturesDisableList": [], "EditBookmarksEnabled": true, "ChromeOsMultiProfileUserBehavior": "unrestricted", "DeveloperToolsAvailability": 1, "DefaultPopupsSetting": 1, "AllowDeletingBrowserHistory": true, "AllowDinosaurEasterEgg": true, "IncognitoModeAvailability": 0, "AllowScreenLock": true, "ExtensionAllowedTypes": null, "ExtensionInstallAllowlist": null, "ExtensionInstallBlocklist": null, "ExtensionInstallForcelist": null, "ExtensionSettings": null, "LacrosAvailability": "user_choice", "WallpaperImage": null}' > /tmp/overlay/etc/opt/chrome/policies/managed/policy.json
+echo '{"URLBlocklist": [], "SystemFeaturesDisableList": [], "EditBookmarksEnabled": true, "ChromeOsMultiProfileUserBehavior": "unrestricted", "DeveloperToolsAvailability": 1, "DefaultPopupsSetting": 1, "AllowDeletingBrowserHistory": true, "AllowDinosaurEasterEgg": true, "IncognitoModeAvailability": 0, "AllowScreenLock": true, "ExtensionAllowedTypes": null, "ExtensionInstallAllowlist": null, "ExtensionInstallBlocklist": null, "ExtensionInstallForcelist": null, "ExtensionSettings": null, "PasswordManagerEnabled": "true", "TaskManagerEndProcessEnabled": "true", "UptimeLimit": "null", "SystemTerminalSshAllowed": "true", "SystemTimezone": "",  "IsolatedAppsDeveloperModeAllowed": "true", "ForceGoogleSafeSearch": "false", "ForceYouTubeRestrict": "0",  "EasyUnlockAllowed": "true", "DisableSafeBrowsingProceedAnyway": "false", "DeviceAllowNewUsers": "true", "DevicePowerAdaptiveChargingEnabled": "true", "DeviceGuestModeEnabled": "true", "LacrosAvailability": "user_choice", "WallpaperImage": null}' > /tmp/overlay/etc/opt/chrome/policies/managed/policy.json
 cp -a -L /etc/* /tmp/overlay/etc 2> /dev/null
 mount --bind /tmp/overlay/etc /etc
 
