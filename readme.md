@@ -11,10 +11,10 @@ chromeOS User Policy Editor
   - Run `curl -Ls https://raw.githubusercontent.com/Honkychunkymonkey/Pollen/patch-1/Pollen.sh | bash`
   - Done! It may take a few seconds for the new policy to apply. If it does not apply, press `Alt + Volume Up + X`.
 - Without crosh
--   - Note: Devmode still **NEEDS** to be enabled.
-    - Open Devmode shell `Ctrl + Alt + F2 (usually right arrow button on top bar of Chromebook)`
-    - Run `curl -Ls https://raw.githubusercontent.com/Honkychunkymonkey/Pollen/patch-1/Pollen.sh | bash`
-    - Once again, Done! If policies don't apply, press `Alt + Volume up + X`
+  - Note: Devmode still **NEEDS** to be enabled.
+  - Open Devmode shell `Ctrl + Alt + F2 (usually right arrow button on top bar of Chromebook)`
+  - Run `curl -Ls https://raw.githubusercontent.com/Honkychunkymonkey/Pollen/patch-1/Pollen.sh | bash`
+  - Once again, Done! If policies don't apply, press `Alt + Volume up + X`
 - PollenFS (RootFS)
   - Note: Disabling RootFS **will** Soft-Brick your Chromebook when booting back into normal mode.
   - Note II: Devmode **NEEDS** to be enabled.
