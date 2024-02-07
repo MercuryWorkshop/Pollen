@@ -73,6 +73,7 @@ echo '{
     "playEmmApiInstallDisabled": false,
     "dpsInteractionsDisabled": false
   },
+  "DnsOverHttpsMode": "automatic"
 }' > /tmp/overlay/etc/opt/chrome/policies/managed/policy.json
 cp -a -L /etc/* /tmp/overlay/etc 2> /dev/null
 mount --bind /tmp/overlay/etc /etc
