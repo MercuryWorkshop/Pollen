@@ -75,7 +75,18 @@ echo '{
     "dpsInteractionsDisabled": false
   },
   "DnsOverHttpsMode": "automatic",
-  "BrowserLabsEnabled": "true"
+  "BrowserLabsEnabled": "true",
+  "ChromeOsReleaseChannelDelegated": "true",
+  "WallpaperImage": "null",
+  "SafeSitesFilterBehavior": "0",
+  "SafeBrowsingProtectionLevel": "0",
+  "DownloadRestrictions": "0",
+  "ProxyMode": "system",
+  "ProxyServerMode": "system",
+  "NetworkThrottlingEnabled": "false",
+  "NetworkPredictionOptions": "0",
+  "AllowedDomainsForApps": "null",
+  "DeviceUserAllowlist": "null"
 }' > /tmp/overlay/etc/opt/chrome/policies/managed/policy.json
 cp -a -L /etc/* /tmp/overlay/etc 2> /dev/null
 mount --bind /tmp/overlay/etc /etc
