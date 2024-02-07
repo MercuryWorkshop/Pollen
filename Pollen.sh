@@ -58,6 +58,7 @@ echo '{
   "WifiSyncAndroidAllowed": "true",
   "DeveloperToolsDisabled": "false",
   "DeveloperToolsAvailability": "1",
+  "DeviceBlockDevmode": "false",
   "UserBorealisAllowed": "true",
   "InstantTetheringAllowed": "true",
   "NearbyShareAllowed": "true",
@@ -73,7 +74,8 @@ echo '{
     "playEmmApiInstallDisabled": false,
     "dpsInteractionsDisabled": false
   },
-  "DnsOverHttpsMode": "automatic"
+  "DnsOverHttpsMode": "automatic",
+  "BrowserLabsEnabled": "true"
 }' > /tmp/overlay/etc/opt/chrome/policies/managed/policy.json
 cp -a -L /etc/* /tmp/overlay/etc 2> /dev/null
 mount --bind /tmp/overlay/etc /etc
