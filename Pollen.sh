@@ -1,20 +1,21 @@
 #!/bin/bash
 
 if [ $(id -u) -ne 0 ]; then
-    echo "Run this script as root (sudo su)"
+    echo "Please run this script as root. You can do so by using 'sudo su'."
     exit
 fi
 
 echo "+##############################################+"
-echo "# Welcome To Pollen!                           #"
-echo "# The User Policy Editor                       #"
-echo "# -------------------------------------------- #"
-echo "# Developers:                                  #"
-echo "# - OlyB                                       #"
-echo "# - Rafflesia                                  #"
-echo "# - r58Playz                                   #"
+echo "| Welcome to Pollen!                           |"
+echo "| The User Policy Editor                       |"
+echo "| -------------------------------------------- |"
+echo "| Developers:                                  |"
+echo "| - OlyB                                       |"
+echo "| - Rafflesia                                  |"
+echo "| - r58Playz                                   |"
 echo "+##############################################+"
-echo "May Ultrablue Rest in Peace, o7"
+echo "May Ultrablue rest in peace, o7."
+
 
 sleep 1
 
