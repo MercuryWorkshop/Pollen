@@ -22,7 +22,7 @@ Disabling RootFS **will** soft-brick your Chromebook if you boot back into verif
 - Log in to the VT-2 Shell again
 - Run `curl -Ls https://mercuryworkshop.github.io/Pollen/PollenFS.sh | bash`
 > [!NOTE]
-If you notice that policies are still being applied, visit `chrome://policy` and click "Reload Policies"
+If you notice that policies are still being applied, visit `chrome://policy` and click "Reload Policies" or if chrome://policy is blocked, enter VT-2 and run `restart ui`.
 
 ## What's the difference?
 The first method will only temporarily change policies, meaning changes will not be permanent. However, by disabling RootFS, policies will be edited permanently.
