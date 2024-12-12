@@ -31,7 +31,7 @@ The first method will only temporarily change policies, meaning changes will not
 Pollen **cannot** edit device policies. Device policies are things like developer mode, etc. To edit device policies, check out [Lilac](https://github.com/mercuryworkshop/lilac)
 
 ## How Pollen Works
-There's an overlooked feature in ChromeOS that allows policies to be loaded similarly to how they would be on Linux. On Linux, you can edit policies by making files in `/etc/opt/chrome/policies/managed`. The same feature still exists within ChromeOS, so we can create a file called `Pollen.json` in `/etc/opt/chrome/policies/managed`, and the existing policies will be overridden.
+There's an overlooked feature in ChromeOS that allows policies to be loaded similarly to how they would be on Linux. On Linux, you can edit policies by making files in `/etc/opt/chrome/policies/managed`. The same feature still exists within ChromeOS, so we can create a file called `policy.json` in `/etc/opt/chrome/policies/managed`, and the existing policies will be overridden.
 
 ## Credits
 - Discovery - Rafflesia
