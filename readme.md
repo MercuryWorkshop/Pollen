@@ -1,6 +1,6 @@
 # Pollen
 ChromeOS User Policy Editor
-![Pollen](/Pollen.svg)
+![Pollen](/Pollen.png)
 
 ## How to Use
 > [!NOTE]
