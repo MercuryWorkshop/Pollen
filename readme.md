@@ -1,9 +1,9 @@
 ![Pollen](/Pollen.png)
 
 ## What is it?
-Pollen is a user policy editor that takes advantage of how and where they are stored. On Linux systems, you can modify your set user policies by changing the file at `/etc/opt/chrome/policies/managed`. This works similarly within ChromeOS, allowing us to create a file called `Pollen.json` to modify existing user policies. 
+Pollen is a user policy editor that takes advantage of how policies are stored. On Linux systems, user policies can be modified by editing the file `/etc/opt/chrome/policies/managed`. ChromeOS works similarly where you can create a file named `Pollen.json` to change existing user policies.
 
-Pollen **cannot** edit device policies like developer mode. If you want to modify device policies you should check out [Lilac](https://github.com/mercuryworkshop/lilac).
+Pollen **cannot** modify policies such as developer mode. If you want to modify **device policies**, visit [Lilac](https://github.com/mercuryworkshop/lilac).
 
 ## How do I use it?
 > [!IMPORTANT]
