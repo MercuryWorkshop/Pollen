@@ -1,37 +1,24 @@
-# Pollen
-ChromeOS User Policy Editor
-![Pollen](/Pollen.svg)
+![Pollen](/Pollen.png)
 
-## How to Use
-> [!NOTE]
-You **need** to have Developer Mode enabled!
-### Normal (Temporary)
-- Open the VT-2 Shell
-> [!NOTE]
-To enter the VT-2 shell, press CTRL + ALT + F2 (usually the right arrow key on your Chromebook)
-  - Log in as `root`
-- Run the command `curl -Ls https://mercuryworkshop.github.io/Pollen/Pollen.sh | bash`
+## What is it?
+Pollen is a user policy editor that takes advantage of how policies are stored. On Linux systems, user policies can be modified by editing the file `/etc/opt/chrome/policies/managed`. ChromeOS works similarly where you can create a file named `Pollen.json` to change existing user policies.
 
-### Disabled RootFS (Permanent)
-> [!NOTE]
-Disabling RootFS **will** soft-brick your Chromebook if you boot back into verified mode.
-- Open the VT-2 Shell
-  - Log in as `root`
-- Run the command `curl -Ls https://mercuryworkshop.github.io/Pollen/RootFS.sh | bash`
-- Reboot
-- Log in to the VT-2 Shell again
-- Run `curl -Ls https://mercuryworkshop.github.io/Pollen/PollenFS.sh | bash`
-> [!NOTE]
-If you notice that policies are still being applied, visit `chrome://policy` and click "Reload Policies" or if chrome://policy is blocked, enter VT-2 and run `restart ui`.
+Pollen **cannot** modify policies such as developer mode. If you want to modify **device policies**, check out [Lilac](https://github.com/mercuryworkshop/lilac).
 
-## What's the difference?
-The first method will only temporarily change policies, meaning changes will not be permanent. However, by disabling RootFS, policies will be edited permanently.
+## How do I use it?
+> [!IMPORTANT]
+You must have developer mode must enabled for Pollen to work!
 
-## What Pollen Doesn't Do
-Pollen **cannot** edit device policies. Device policies are things like developer mode, etc. To edit device policies, check out [Lilac](https://github.com/mercuryworkshop/lilac)
+If you notice that policy changes are not taking effect, visit `chrome://policy` and click "Reload Policies". If `chrome://policy` is blocked, enter VT-2 and run `restart ui`.
 
-## How Pollen Works
-There's an overlooked feature in ChromeOS that allows policies to be loaded similarly to how they would be on Linux. On Linux, you can edit policies by making files in `/etc/opt/chrome/policies/managed`. The same feature still exists within ChromeOS, so we can create a file called `Pollen.json` in `/etc/opt/chrome/policies/managed`, and the existing policies will be overridden.
+### Change Temporarily
+To temporarily modify the user policy, enter the VT2 console by pressing `CTRL + ALT + F2`. You can login as `root` or `chronos` and then run the command: `curl -Ls https://mercuryworkshop.github.io/Pollen/Pollen.sh | bash` to execute Pollen.
+
+### Change Permently
+> [!WARNING]
+> You can disable RootFS on your chromebook to make user policy changes persistent. However this will cause your chromebook to soft-brick if you re-enter verified mode. 
+
+To disable RootFS, login as `root` on the VT2 shell and run the command `curl -Ls https://mercuryworkshop.github.io/Pollen/RootFS.sh | bash`. You can now execute pollen by rebooting the system, opening VT2, and running  `curl -Ls https://mercuryworkshop.github.io/Pollen/PollenFS.sh | bash`.
 
 ## Credits
 - Discovery - Rafflesia
