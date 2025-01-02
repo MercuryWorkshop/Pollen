@@ -7,9 +7,9 @@ Pollen **cannot** modify policies such as developer mode. If you want to modify 
 
 ## How do I use it?
 > [!IMPORTANT]
-You must have developer mode must enabled for Pollen to work!
+You must have developer mode enabled for Pollen to work!
 
-If you notice that policy changes are not taking effect, visit `chrome://policy` and click "Reload Policies". If `chrome://policy` is blocked, enter VT-2 and run `restart ui`.
+If you notice that policy changes are not taking effect, visit `chrome://policy` and click "Reload Policies." If `chrome://policy` is blocked, enter VT-2 and run `restart ui`.
 
 ### Change Temporarily
 To temporarily modify the user policy, enter the VT2 console by pressing `CTRL + ALT + F2`. You can login as `root` or `chronos` and then run the command: `curl -Ls https://mercuryworkshop.github.io/Pollen/Pollen.sh | bash` to execute Pollen.
