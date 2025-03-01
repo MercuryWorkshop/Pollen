@@ -1,5 +1,13 @@
 ![Pollen](/Pollen.png)
 
+>[!IMPORTANT]
+>Pollen is patched on ChromeOS R131 and above. <br />
+<!--
+>Patches: <br />
+>https://chromiumdash.appspot.com/commit/313936b9fe8c343841378ffe5f33ad34de3bb3b7 <br />
+>https://chromium-review.googlesource.com/c/chromium/src/+/5258257
+-->
+
 ## What is it?
 Pollen is a user policy editor that takes advantage of how policies are stored. On Linux systems, user policies can be modified by editing the file `/etc/opt/chrome/policies/managed`. ChromeOS works similarly where you can create a file named `Pollen.json` to change existing user policies.
 
